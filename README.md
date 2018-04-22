@@ -12,6 +12,28 @@
 
 ## Quickstart
 
+### 扑克的表示
+
+#### 15种点数
+
+    '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A', '2', 'BJ', 'CJ'
+
+- BJ: Black Joker    小王/花/鬼
+- CJ: Colored Joker  大王/花/鬼
+
+#### 4种花色
+
+    's': spades   黑桃 ♠
+    'h': hearts   红心 ❤
+    'd': diamonds 方块 ♦
+    'c': clubs    梅花 ♣
+
+#### 举例
+
+    '2c': 单张[ 2 ♣ ]
+    '2h-2s-2d-2c-BJ-CJ': 四个2带两王[ 2 ❤ ] , [ 2 ♠ ] , [ 2 ♦ ] , [ 2 ♣ ] , [ BJ  ] , [ CJ  ]
+    '3c-4d-5h-6s-7s-8h-9h': 顺子[ 3 ♣ ] , [ 4 ♦ ] , [ 5 ❤ ] , [ 6 ♠ ] , [ 7 ♠ ] , [ 8 ❤ ] , [ 9 ❤ ]
+
 ### Installing
 
 `pip install doudizhu`
